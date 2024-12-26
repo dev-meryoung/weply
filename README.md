@@ -1,4 +1,4 @@
-# ▶️ 플레이리스트 공유 SNS 위플리(Weply)
+# ▶️ 위플리(Weply)
 
 <p align="center">
   <img alt="소개" src="https://github.com/user-attachments/assets/feadf140-86a2-4be1-8929-0b33c8b84c6d">
