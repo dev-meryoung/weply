@@ -19,7 +19,6 @@ const Comment: React.FC<CommentWithProfileProps> = ({
   userName,
   content,
   showKebabMenu = false,
-  isEdited = false,
   docId,
   onDelete = () => {},
   onClick = () => {},

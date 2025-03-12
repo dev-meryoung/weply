@@ -59,7 +59,7 @@ const Detail = () => {
     likes: number;
   }>({ isLiked: false, likes: 0 });
 
-  const { isLiked, isAdded, toggleLike, toggleSave, likes, setInitLikes } =
+  const { isLiked, isAdded, toggleLike, toggleSave, setInitLikes } =
     usePlaylistActions(playlistId ? +playlistId : 0, playlistInfo.likes);
 
   const [commentsPlus, setCommentsPlus] = useState<number>(COMMENT_PLUS_SIZE);
