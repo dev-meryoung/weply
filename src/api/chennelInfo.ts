@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { doc, onSnapshot } from 'firebase/firestore';
 import { useParams } from 'react-router-dom';
-import { db } from '@/firebase/firbaseConfig';
+import { db } from '@/firebase/firebaseConfig';
 import { useAuthStore } from '@/stores/useAuthStore';
 
 interface ChennelDataProps {

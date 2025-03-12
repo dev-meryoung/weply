@@ -1,6 +1,6 @@
 import { doc, updateDoc } from 'firebase/firestore';
 import { create } from 'zustand';
-import { db } from '@/firebase/firbaseConfig';
+import { db } from '@/firebase/firebaseConfig';
 
 interface PlaylistVisibility {
   [playlistId: string]: boolean;

@@ -1,6 +1,6 @@
 // src/api/followingList.ts
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
-import { db } from '@/firebase/firbaseConfig';
+import { db } from '@/firebase/firebaseConfig';
 
 const updateUserFollowingList = async (userId: string, uid: string) => {
   const userDocRef = doc(db, 'users', userId);

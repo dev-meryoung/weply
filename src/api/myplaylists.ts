@@ -13,7 +13,7 @@ import {
   doc,
 } from 'firebase/firestore';
 import { useParams } from 'react-router-dom';
-import { db } from '@/firebase/firbaseConfig';
+import { db } from '@/firebase/firebaseConfig';
 import { PlayListDataProps } from '@/types/playlistType';
 
 type PlaylistPageType = 'user' | 'liked' | 'saved';

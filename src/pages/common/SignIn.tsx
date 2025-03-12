@@ -17,7 +17,7 @@ import Toggle from '@/components/Toggle';
 import colors from '@/constants/colors';
 import { fontSize, fontWeight } from '@/constants/font';
 import ROUTES from '@/constants/route';
-import { auth, db } from '@/firebase/firbaseConfig';
+import { auth, db } from '@/firebase/firebaseConfig';
 import { useAuthStore } from '@/stores/useAuthStore';
 
 export const SignIn = () => {

@@ -12,7 +12,7 @@ import {
 import { create, StateCreator } from 'zustand';
 import { persist, PersistOptions } from 'zustand/middleware';
 import defaultProfile from '@/assets/profile_default.png';
-import { auth, db } from '@/firebase/firbaseConfig';
+import { auth, db } from '@/firebase/firebaseConfig';
 
 interface AuthState {
   user: User | null;

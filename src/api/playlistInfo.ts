@@ -17,7 +17,7 @@ import {
   ref,
   uploadBytes,
 } from 'firebase/storage';
-import { COLLECTION, db, storage, STORAGE } from '@/firebase/firbaseConfig';
+import { COLLECTION, db, storage, STORAGE } from '@/firebase/firebaseConfig';
 import { ApiResponse } from '@/types/api';
 import { PlayListDataProps } from '@/types/playlistType';
 

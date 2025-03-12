@@ -18,7 +18,7 @@ import Toast from '@/components/Toast';
 import colors from '@/constants/colors';
 import { fontSize, fontWeight } from '@/constants/font';
 import ROUTES from '@/constants/route';
-import { auth, db } from '@/firebase/firbaseConfig';
+import { auth, db } from '@/firebase/firebaseConfig';
 import useToast from '@/hooks/useToast';
 import { useAuthStore } from '@/stores/useAuthStore';
 import useModalStore from '@/stores/useModalStore';

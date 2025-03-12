@@ -10,7 +10,7 @@ import {
   updateDoc,
   where,
 } from 'firebase/firestore';
-import { COLLECTION, db } from '@/firebase/firbaseConfig';
+import { COLLECTION, db } from '@/firebase/firebaseConfig';
 import { ApiResponse, UserProps } from '@/types/api';
 import { CommentProps } from '@/types/playlistType';
 
