@@ -17,7 +17,7 @@ interface MiniPlaylistProps {
   onClose: () => void;
 }
 
-const defaultImg = '/src/assets/defaultThumbnail.jpg';
+const defaultImg = '/images/defaultThumbnail.jpg';
 
 const MiniPlaylist = ({ isActive, videoInfo, onClose }: MiniPlaylistProps) => (
   <Transition

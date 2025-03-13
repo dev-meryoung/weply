@@ -7,8 +7,8 @@ import {
 } from 'firebase/auth';
 import { setDoc, doc, getDoc } from 'firebase/firestore';
 import { useNavigate } from 'react-router-dom';
-import google from '@/assets/google_icon.svg';
-import defaultProfile from '@/assets/profile_default.png';
+import google from '/images/google_icon.svg';
+import defaultProfile from '/images/profile_default.png';
 import Button from '@/components/Button';
 import InputBox from '@/components/InputBox';
 import Logo from '@/components/Logo';

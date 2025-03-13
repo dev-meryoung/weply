@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { css } from '@emotion/react';
 import { ChevronLeft, SearchIcon } from 'lucide-react';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
-import defaultProfile from '@/assets/profile_default.png';
+import defaultProfile from '/images/profile_default.png';
 import IconButton from '@/components/IconButton';
 import Logo from '@/components/Logo';
 import Profile from '@/components/Profile';

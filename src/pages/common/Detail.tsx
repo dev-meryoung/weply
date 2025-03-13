@@ -128,7 +128,7 @@ const Detail = () => {
               __html:
                 currentVideo.embedCode ||
                 `<div class='emptyVideo'>
-                  <img src='/src/assets/logoIcon.png' />
+                  <img src='/images/logoIcon.png' />
                   영상을 불러오는 중...
                 </div>`,
             }}

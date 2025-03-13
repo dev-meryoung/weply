@@ -51,7 +51,7 @@ const Comment: React.FC<CommentWithProfileProps> = ({
         onClick={onClick}
         onError={({ currentTarget }) => {
           currentTarget.onerror = null; // prevents looping
-          currentTarget.src = '/src/assets/logoIcon.png';
+          currentTarget.src = '/images/profile_default.png';
         }}
       />
       <div css={contentStyles}>

@@ -34,7 +34,7 @@ const Profile: React.FC<ProfileProps> = ({
     onClick={onClick}
   >
     <img
-      src={!!!src ? '/src/assets/logoIcon.png' : src}
+      src={!!!src ? '/images/profile_default.png' : src}
       alt={alt}
       css={css`
         width: 100%;
