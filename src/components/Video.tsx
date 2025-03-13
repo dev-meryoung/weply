@@ -35,7 +35,7 @@ const Video = ({ imgUrl, title, userName, provider }: VideoProps) => (
           css={iconStyle}
           onError={({ currentTarget }) => {
             currentTarget.onerror = null; // prevents looping
-            currentTarget.src = '/images/logoIcon.png';
+            currentTarget.src = '/images/thumbnail_default.png';
           }}
         />
       )}
