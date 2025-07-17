@@ -9,7 +9,7 @@ import InputBox from '@/components/InputBox';
 import Toast from '@/components/Toast';
 import colors from '@/constants/colors';
 import ROUTES from '@/constants/route';
-import { auth, db } from '@/firebase/firbaseConfig';
+import { auth, db } from '@/firebase/firebaseConfig';
 import { useCheckDuplicate } from '@/hooks/useCheckDuplicate';
 import useToast from '@/hooks/useToast';
 import { checkIdExists, checkChannelNameExists } from '@/utils/checkDuplicate';

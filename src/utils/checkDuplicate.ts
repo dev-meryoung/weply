@@ -6,7 +6,7 @@ import {
   doc,
   getDoc,
 } from 'firebase/firestore';
-import { db } from '@/firebase/firbaseConfig';
+import { db } from '@/firebase/firebaseConfig';
 
 export const checkChannelNameExists = async (
   channelName: string

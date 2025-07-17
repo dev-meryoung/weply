@@ -6,7 +6,7 @@ import {
   arrayRemove,
   getDoc,
 } from 'firebase/firestore';
-import { db } from '@/firebase/firbaseConfig';
+import { db } from '@/firebase/firebaseConfig';
 import { useAuthStore } from '@/stores/useAuthStore';
 
 export const useFollowToggle = (channelUserId: string | undefined) => {

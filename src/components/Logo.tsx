@@ -1,7 +1,7 @@
 import React from 'react';
 import { css } from '@emotion/react';
 import { useNavigate } from 'react-router-dom';
-import logo from '@/assets/logo.svg';
+import logo from '/images/logo.svg';
 import ROUTES from '@/constants/route';
 
 interface LogoProps {

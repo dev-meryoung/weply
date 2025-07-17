@@ -36,7 +36,7 @@ const INIT_VALUES: {
     isPublic: true,
     playlistId: '임시 PL ID',
     regDate: new Date().toISOString(),
-    thumbnail: '/src/assets/logoIcon.png',
+    thumbnail: '/images/thumbnail_default.png',
     links: [],
   },
 };

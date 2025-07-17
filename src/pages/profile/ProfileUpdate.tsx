@@ -16,7 +16,7 @@ import Profile from '@/components/Profile';
 import colors from '@/constants/colors';
 import { fontSize } from '@/constants/font';
 import ROUTES from '@/constants/route';
-import { db } from '@/firebase/firbaseConfig';
+import { db } from '@/firebase/firebaseConfig';
 import { useCheckDuplicate } from '@/hooks/useCheckDuplicate';
 import { useHashtagManage } from '@/hooks/useHashtagManage';
 import useToast from '@/hooks/useToast';

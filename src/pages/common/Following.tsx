@@ -177,11 +177,6 @@ const emptyContainer = css`
   text-align: center;
 `;
 
-const emptyImage = css`
-  width: 150px; /* 적절한 크기로 조절 */
-  height: auto;
-`;
-
 const emptyMessage = css`
   margin: 20px 0;
   font-size: ${fontSize.lg};

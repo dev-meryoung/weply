@@ -59,7 +59,7 @@ const Detail = () => {
     likes: number;
   }>({ isLiked: false, likes: 0 });
 
-  const { isLiked, isAdded, toggleLike, toggleSave, likes, setInitLikes } =
+  const { isLiked, isAdded, toggleLike, toggleSave, setInitLikes } =
     usePlaylistActions(playlistId ? +playlistId : 0, playlistInfo.likes);
 
   const [commentsPlus, setCommentsPlus] = useState<number>(COMMENT_PLUS_SIZE);
@@ -128,7 +128,7 @@ const Detail = () => {
               __html:
                 currentVideo.embedCode ||
                 `<div class='emptyVideo'>
-                  <img src='/src/assets/logoIcon.png' />
+                  <img src='/images/logoIcon.png' />
                   영상을 불러오는 중...
                 </div>`,
             }}

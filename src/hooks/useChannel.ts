@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { collection, query, where, doc, onSnapshot } from 'firebase/firestore';
-import { db } from '@/firebase/firbaseConfig';
+import { db } from '@/firebase/firebaseConfig';
 import { useAuthStore } from '@/stores/useAuthStore';
 
 interface Channel {

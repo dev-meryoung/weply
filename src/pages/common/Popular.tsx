@@ -109,11 +109,7 @@ const playlistContainerStyle = css`
   padding: calc(${headerHeight} + 20px) 20px 20px 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 20px;
-  .css-1yx0w9a-largeCardStyles {
-    width: 100%;
-  }
 `;
 
 const loadingSpinnerStyle = css`

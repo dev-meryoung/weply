@@ -10,7 +10,7 @@ import {
   limit,
 } from 'firebase/firestore';
 import { getCommentCount } from '@/api/myplaylists';
-import { db } from '@/firebase/firbaseConfig';
+import { db } from '@/firebase/firebaseConfig';
 import { PlayListDataProps } from '@/types/playlistType';
 
 const fetchPlaylists = async (

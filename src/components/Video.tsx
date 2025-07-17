@@ -16,10 +16,10 @@ const MAX_LENGTH = {
 };
 
 const ICON: Record<string, string> = {
-  youtube: '/src/assets/youtube.png',
-  vimeo: '/src/assets/vimeo.png',
-  soundcloud: '/src/assets/soundCloud.png',
-  default: '/src/assets/logoIcon.png',
+  youtube: '/images/youtube.png',
+  vimeo: '/images/vimeo.png',
+  soundcloud: '/images/soundcloud.png',
+  default: '/images/logoIcon.png',
 };
 
 const Video = ({ imgUrl, title, userName, provider }: VideoProps) => (
@@ -35,7 +35,7 @@ const Video = ({ imgUrl, title, userName, provider }: VideoProps) => (
           css={iconStyle}
           onError={({ currentTarget }) => {
             currentTarget.onerror = null; // prevents looping
-            currentTarget.src = '/src/assets/logoIcon.png';
+            currentTarget.src = '/images/thumbnail_default.png';
           }}
         />
       )}
